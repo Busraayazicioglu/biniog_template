@@ -2,16 +2,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+.navbar-container {
+  position: relative;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
 }
 
 .menu-container .page {
-  background: -webkit-linear-gradient(to bottom, #4a00e0, #8e2de2);
-  background: -webkit-moz-gradient(to bottom, #4a00e0, #8e2de2);
-  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
   height: 80px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1px solid rgba(0, 0, 0, 0.1);
 }
 .page {
   display: flex;
@@ -120,8 +121,8 @@ i {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   color: white;
   display: flex;
-  align-items: center; /* Dikey hizalama */
-  gap: 250px; /* Aradaki boşluk */
+  align-items: center;
+  gap: 25px;
 }
 
 .content1 {
@@ -172,46 +173,47 @@ i {
 }
 .area {
   background: linear-gradient(to bottom, #4a00e0, #8e2de2);
-  padding: 165px 0px 249px;
+  padding-top: 30px;
+  height: 900px;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 60% 50%;
+  justify-content: space-between;
+  align-items: center;
+  place-items: center;
+  gap: 20px;
 }
 i {
   display: flex;
 }
 
 .image {
-  width: 200px; /* Resim boyutu */
+  width: 200px;
   height: auto;
 }
 .top-content {
-  margin-top: -200px;
-  padding: 0px 0px 92px;
+  position: relative;
+  margin: 0 auto;
   background-color: #131333;
 }
-.top-content .top-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-
-  /* max-width: 100%;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px; */
-}
 .top-container {
-  max-width: 100%;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  display: flex;
+  max-width: 900px;
+  position: absolute;
+  top: -200px;
+  left: 30%;
+  gap: 30px;
 }
+
 .top-container .top1 {
   padding: 30px 30px 27px;
   margin-bottom: 30px;
   text-align: center;
   background: #032055;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
+}
+.top-card {
+  border-radius: 30px;
 }
 .top1 .icon {
   font-size: 50px;
@@ -230,7 +232,6 @@ i {
   text-align: center;
   padding: 30px 30px 27px;
   margin-bottom: 30px;
-
   background: #032055;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
 }
@@ -251,7 +252,6 @@ i {
   text-align: center;
   padding: 30px 30px 27px;
   margin-bottom: 30px;
-
   background: #032055;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
 }
@@ -290,15 +290,24 @@ i {
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
 }
 .about {
-  padding-bottom: 130px;
+  padding-top: 40px;
   display: block;
   background-color: #131333;
 }
 .about-area {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-bottom: 180px;
+  margin-top: 300px;
+}
+.about-list {
+  width: 100%;
+  li {
+    width: 100%;
+  }
+}
+.inner-content {
+  width: max-content;
 }
 .about-header {
   margin-bottom: 55px;
@@ -317,7 +326,6 @@ p {
   font-size: 16px;
   line-height: 26px;
   color: #dbe2fb;
-
   font-family: "Open Sans", sans-serif;
 }
 .image-area2 .image2 {
@@ -332,9 +340,7 @@ p {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
-.about-list li {
-  list-style: none;
-}
+
 .icon4,
 .icon5,
 .icon6 {
@@ -349,11 +355,6 @@ p {
   text-align: center;
   margin-left: 20px;
 }
-/* .feature-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
 .about-content {
   display: flex;
   justify-content: space-between;
