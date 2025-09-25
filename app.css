@@ -294,31 +294,30 @@ i {
   display: block;
   background-color: #131333;
 }
-.about .about-area {
-  max-width: 960px;
-  width: 100%;
+.about-area {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
-.title-content {
+.about-header {
   margin-bottom: 55px;
   text-align: center;
+  width: 100%;
+}
+.title-content {
   font-size: 40px;
   line-height: 50px;
   font-weight: 600;
   margin-bottom: 12px;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  margin-top: 0;
-  margin-bottom: 1rem;
 }
 p {
   font-size: 16px;
   line-height: 26px;
   color: #dbe2fb;
-  text-align: center;
+
   font-family: "Open Sans", sans-serif;
 }
 .image-area2 .image2 {
