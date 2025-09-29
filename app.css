@@ -1007,3 +1007,67 @@ p {
 .img {
   max-width: 100%;
 }
+.top-inventors {
+  background-color: #001232;
+  padding: 121px 0px 115px;
+}
+
+.inventors-title {
+  margin-bottom: 23px;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.inventors-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #dbe2fb;
+  text-align: center;
+}
+.team-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 15px 15px;
+  gap: 20px;
+}
+.div1 {
+  background: #032055;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  padding: 20px 20px 25px;
+  border-radius: 7px;
+  width: 300px;
+  height: 300px;
+}
+.team-img {
+  position: relative;
+  top: -60px;
+  height: 200px;
+  width: 200px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.team-inner-content {
+  text-align: center;
+  position: relative;
+  margin-top: -37px;
+}
+.name {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.destignation {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.social-media li {
+  display: inline-block;
+}
