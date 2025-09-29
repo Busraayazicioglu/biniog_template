@@ -885,6 +885,12 @@ p {
   vertical-align: bottom;
   text-align: inherit;
 }
+.table td:nth-child(3) {
+  color: #4a00e0;
+}
+.table td:nth-child(4) {
+  color: orange;
+}
 .table td {
   color: #fff;
   vertical-align: middle;
@@ -913,7 +919,7 @@ p {
 .mini-header {
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 135px;
 }
 .mini-title {
   font-size: 30px;
@@ -937,9 +943,73 @@ p {
 .mini-item {
   text-align: right;
   display: block;
-  width: 100%;
 }
 .mini-item :hover {
   background-color: #5e00d9;
   color: #fff;
+}
+.advantage {
+  background: #032055;
+  padding: 120px 0px 130px;
+  display: block;
+}
+.advantage-container {
+  max-width: 960px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.advantage-header {
+  text-align: center;
+  margin-bottom: 57px;
+}
+.advantage-title {
+  margin-bottom: 23px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.advantage-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #dbe2fb;
+  hyphens: auto;
+}
+.advantage-inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.advantage-content {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.content-title {
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 20px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+content-text {
+  color: #dbe2fb;
+  font-size: 16px;
+  hyphens: auto;
+}
+.img {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
