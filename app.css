@@ -1071,3 +1071,66 @@ p {
 .social-media li {
   display: inline-block;
 }
+.comment {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  padding: 121px 0px 115px;
+}
+.comment-container {
+  max-width: 960px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.comment-title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 23px;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.comment-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.users-comment-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.comment1 {
+  background: #032055;
+  padding: 26px 30px 30px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+  width: 330px;
+  height: 350px;
+}
+.stars {
+  margin-bottom: 19px;
+  display: block;
+}
+.stars i {
+  color: yellow;
+  font-size: 14px;
+}
+.user-text {
+  margin-bottom: 0px;
+  color: #dbe2fb;
+  font-size: 16px;
+  hyphens: auto;
+}
+.user-info {
+  display: flex;
+  margin-top: 26px;
+}
+.user-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
