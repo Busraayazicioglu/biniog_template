@@ -981,16 +981,11 @@ p {
 }
 .advantage-inner {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  justify-content: space-between;
+  align-items: center;
 }
 .advantage-content {
   position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  flex: 0 0 50%;
   max-width: 50%;
 }
 .content-title {
@@ -1000,16 +995,15 @@ p {
   color: #ffff;
   font-family: "Poppins", sans-serif;
 }
-content-text {
+.content-text {
   color: #dbe2fb;
   font-size: 16px;
   hyphens: auto;
 }
-.img {
-  flex: 0 0 50%;
-  max-width: 50%;
+.img-area {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+}
+.img {
+  max-width: 100%;
 }
