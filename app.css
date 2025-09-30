@@ -142,7 +142,10 @@ i {
   text-align: left;
   font-family: "Open Sans", sans-serif;
 }
-
+.sign input {
+  background-color: transparent;
+  border: none;
+}
 .sign-area .submit-button {
   background: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%);
   background-size: 100% 200%;
