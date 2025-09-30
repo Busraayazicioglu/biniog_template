@@ -41,7 +41,7 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%); /* ortalama */
+  transform: translateX(-50%);
   z-index: 1;
   display: none;
   padding: 25px;
@@ -72,7 +72,7 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%); /* ortalama */
+  transform: translateX(-50%);
   z-index: 1;
   display: none;
   padding: 25px;
@@ -1203,4 +1203,80 @@ p {
   padding: 0 20px;
   font-size: 14px;
   border-radius: 5px;
+}
+.faq-area {
+  background: #032055;
+  padding: 130px 0px 130px;
+}
+.faq-container {
+  display: flex;
+  justify-content: center;
+}
+.faq-header {
+  text-align: left;
+  margin-bottom: 36px;
+  margin-left: 250px;
+}
+.faq-title {
+  margin-bottom: 14px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.faq-button {
+  text-decoration: none;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 30px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0px;
+  transition: all 0.3s ease-in;
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}
+.single-acordion {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.04);
+  margin-bottom: 30px;
+  background: #fff;
+  width: 50%;
+  margin-left: 50px;
+}
+.acordion-header {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 15px 20px;
+}
+.acordion-title {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 34px;
+  color: #fff;
+}
+.acordion-title i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.acordion-body {
+  background: #032055;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 18px 25px 19px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  color: #dbe2fb;
+  font-family: "Open Sans", sans-serif;
 }
